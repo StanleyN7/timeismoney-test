@@ -84,6 +84,7 @@ header {
 		@include justify-content(space-between);
     }
 	.logo {
+		font-family:"Lobster1.4", Arial, sans-serif;;
 		font-size: 44px;
 		color: $accent;
 	}

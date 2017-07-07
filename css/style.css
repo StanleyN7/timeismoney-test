@@ -71,6 +71,7 @@ header {
     -o-justify-content: space-between;
     justify-content: space-between; }
   header .logo {
+    font-family: "Lobster1.4", Arial, sans-serif;
     font-size: 44px;
     color: #49cbcd; }
   header .menu_mobile_btn {
