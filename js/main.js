@@ -33,6 +33,12 @@ $(function(){
 	$('.menu_mobile_btn, .go_to').on('click', function(){
 		$('.nav_menu_list').toggleClass('active');
     });
+	$(document).on('click', function(e) {
+		if (!$(e.target).closest(".nav_menu").length) {
+	    	$('.nav_menu_list').toggleClass('active');
+	  	}
+	  	e.stopPropagation();
+	});
     //Валидация формы
     $('.send_btn').on('click', function(){
     	var check = 1;
