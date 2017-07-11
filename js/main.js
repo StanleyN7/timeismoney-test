@@ -35,7 +35,7 @@ $(function(){
     });
 	$(document).on('click', function(e) {
 		if (!$(e.target).closest(".nav_menu").length) {
-	    	$('.nav_menu_list').toggleClass('active');
+	    	$('.nav_menu_list').removeClass('active');
 	  	}
 	  	e.stopPropagation();
 	});
