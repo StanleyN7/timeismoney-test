@@ -143,16 +143,15 @@ header {
     		margin-bottom: 50px;
 		}
 		.slider_item__btn {
+			@extend .button;
+			width: 210px;
 			background: none;
 			border: 3px solid $white;
-			@extend .button;
-			a {
-				display: block;
-				font-size: 26px;
-				line-height: 60px;
-				padding-left: 30px;
-				padding-right: 30px;
-			}
+			display: inline-block;
+			font-size: 26px;
+			line-height: 60px;
+			padding-left: 30px;
+			padding-right: 30px;
 			&:hover {
 				background: $accent;
 			}
@@ -488,12 +487,11 @@ footer {
 				font-size: 16px;
 			}
 			.slider_item__btn {
-				a {
-					font-size: 18px;
-				    line-height: 40px;
-				    padding-left: 20px;
-				    padding-right: 20px;
-				}
+				width: 150px;
+				font-size: 18px;
+			    line-height: 40px;
+			    padding-left: 20px;
+			    padding-right: 20px;
 			}
 		}
 		.slider_nav_btn {
